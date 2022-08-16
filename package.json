@@ -1,6 +1,5 @@
 {
   "name": "hero_admin_panel",
-  "homepage": ".",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
