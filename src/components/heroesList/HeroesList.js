@@ -33,7 +33,8 @@ const HeroesList = (props) => {
 
     useEffect(() => {
         dispatch(heroesFetching());
-        request("http://localhost:3001/heroes")
+        // request("http://localhost:3001/heroes")
+        request("https://my-json-server.typicode.com/twoGophers/hero_admin_panel_tempalate/heroes")
             .then(data => dispatch(heroesFetched(data)))
             .catch(() => dispatch(heroesFetchingError()))
 
@@ -45,7 +46,8 @@ const HeroesList = (props) => {
     // Отслеживайте цепочку действий actions => reducers
     const onDelete = useCallback((id) => {
         // Удаление персонажа по его id
-        request(`http://localhost:3001/heroes/${id}`, "DELETE")
+        // request(`http://localhost:3001/heroes/${id}`, "DELETE")
+        request(`https://my-json-server.typicode.com/twoGophers/hero_admin_panel_tempalate/heroes/${id}`, "DELETE")
             .then(data => console.log(data, 'Deleted'))
             .then(dispatch(heroDeleted(id)))
             .catch(err => console.log(err));

@@ -20,7 +20,8 @@ const HeroesFilters = () => {
     // Запрос на сервер для получения фильтров и последовательной смены состояния
     useEffect(() => {
         dispatch(filtersFetching());
-        request("http://localhost:3001/filters")
+        // request("http://localhost:3001/filters")
+        request("https://my-json-server.typicode.com/twoGophers/hero_admin_panel_tempalate/filters")
             .then(data => dispatch(filtersFetched(data)))
             .catch(() => dispatch(filtersFetchingError()))
 
