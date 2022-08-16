@@ -1,6 +1,6 @@
 {
   "name": "hero_admin_panel",
-  "homepage": "http://github.com/twoGophers/hero_admin_panel_tempalate",
+  "homepage": ".",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
