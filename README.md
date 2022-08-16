@@ -1,1 +1,1 @@
-This is test project with hero admin panel!
+ Demo : https://twogophers.github.io/hero_admin_panel_tempalate/
