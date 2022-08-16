@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/twoGophers/hero_admin_panel_tempalate/static/css/main.7ad1fe94.chunk.css",
-    "main.js": "/twoGophers/hero_admin_panel_tempalate/static/js/main.d5da5407.chunk.js",
-    "main.js.map": "/twoGophers/hero_admin_panel_tempalate/static/js/main.d5da5407.chunk.js.map",
+    "main.js": "/twoGophers/hero_admin_panel_tempalate/static/js/main.c4b6bfbc.chunk.js",
+    "main.js.map": "/twoGophers/hero_admin_panel_tempalate/static/js/main.c4b6bfbc.chunk.js.map",
     "runtime-main.js": "/twoGophers/hero_admin_panel_tempalate/static/js/runtime-main.455d6c91.js",
     "runtime-main.js.map": "/twoGophers/hero_admin_panel_tempalate/static/js/runtime-main.455d6c91.js.map",
     "static/css/2.3c19f40d.chunk.css": "/twoGophers/hero_admin_panel_tempalate/static/css/2.3c19f40d.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.3c19f40d.chunk.css",
     "static/js/2.a6cd89fa.chunk.js",
     "static/css/main.7ad1fe94.chunk.css",
-    "static/js/main.d5da5407.chunk.js"
+    "static/js/main.c4b6bfbc.chunk.js"
   ]
 }
